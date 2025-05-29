@@ -9,27 +9,27 @@ let facemesh;
 let predictions = [];
 
 function preload() {
-  imgs[0] = loadImage('Frame 1.png');
-  imgs[1] = loadImage('Frame 2.png');
-  imgs[2] = loadImage('Frame 7.png');
-  imgs[3] = loadImage('Frame 8.png');
-  imgs[4] = loadImage('Frame 9.png');
-  imgs[5] = loadImage('Frame 10.png');
-  imgs[6] = loadImage('100배경.png'); // 100% 배경
-  imgs[7] = loadImage('80배경.png');  // 80% 배경
-  imgs[8] = loadImage('60배경.png');  // 60% 배경
-  imgs[9] = loadImage('40배경.png');  // 40% 배경
-  imgs[10] = loadImage('20배경.png'); // 20% 배경
-  imgs[11] = loadImage('0배경.png');  // 0% 배경
-  imgs[12] = loadImage('0%.png');   // 0% 캐릭터
-  imgs[13] = loadImage('20%.png');  // 20% 캐릭터
-  imgs[14] = loadImage('40%.png');  // 40% 캐릭터
-  imgs[15] = loadImage('60%.png');  // 60% 캐릭터
-  imgs[16] = loadImage('80%.png');  // 80% 캐릭터
-  imgs[17] = loadImage('100%.png'); // 100% 캐릭터
+  imgs[0] = loadImage('frame1.png');
+  imgs[1] = loadImage('frame2.png');
+  imgs[2] = loadImage('frame7.png');
+  imgs[3] = loadImage('frame8.png');
+  imgs[4] = loadImage('frame9.png');
+  imgs[5] = loadImage('frame10.png');
+  imgs[6] = loadImage('100bg.png'); // 100% 배경
+  imgs[7] = loadImage('80bg.png');  // 80% 배경
+  imgs[8] = loadImage('60bg.png');  // 60% 배경
+  imgs[9] = loadImage('40bg.png');  // 40% 배경
+  imgs[10] = loadImage('20bg.png'); // 20% 배경
+  imgs[11] = loadImage('0bg.png');  // 0% 배경
+  imgs[12] = loadImage('0p.png');   // 0% 캐릭터
+  imgs[13] = loadImage('20p.png');  // 20% 캐릭터
+  imgs[14] = loadImage('40p.png');  // 40% 캐릭터
+  imgs[15] = loadImage('60p.png');  // 60% 캐릭터
+  imgs[16] = loadImage('80p.png');  // 80% 캐릭터
+  imgs[17] = loadImage('100p.png'); // 100% 캐릭터
   imgs[18] = loadImage('heart.jpg');   // 하트 이미지
-  imgs[19] = loadImage('Frame 31.png'); // 시작화면
-  imgs[20] = loadImage('엔딩화면.png'); // 엔딩화면
+  imgs[19] = loadImage('frame31.png'); // 시작화면
+  imgs[20] = loadImage('ending.png'); // 엔딩화면
 
   soundFormats('mp3', 'ogg');
   bgm = loadSound('bgm.mp3');
